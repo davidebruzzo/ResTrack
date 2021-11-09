@@ -149,19 +149,17 @@ def moveRobotTowardsSilver(distSilver, rot_ySilver):
 	      	R.release()
 	      	print("Silver block released!\n")
 	      	turn(-20,3)
-	      	drive(20,0.5)
+	      	drive(20,0.3)
 	        	        	
 	elif -a_th<= rot_ySilver <= a_th: # if the robot is well aligned with the token, we go forward
 	      	print("Ah, I am well aligned! Going straigth!\n")
-	      	drive(20, 0.5)
+	      	drive(40, 0.1)
 	elif rot_ySilver < -a_th: # if the robot is not well aligned with the token, we move it on the left or on the right
 	      	print("Left a bit to align with silver block...\n")
 	      	turn(-2, 0.5)
-	      	drive(20,0.5)
 	elif rot_ySilver > a_th:
 	      	print("Right a bit to align with silver block...\n")
 	      	turn(+2, 0.5)
-	      	drive(20,0.5)
 
         distSilver, rot_ySilver = findMarkerSilver()	#update the silver's block info
         return distSilver, rot_ySilver
@@ -188,7 +186,7 @@ def moveRobot(distSilver, rot_ySilver, distGold, rot_yGold):
 	else: 
 		avoidWalls(distGold, rot_yGold)				# if the robot is far from a silver block, checks if there are walls and drives avoiding them
 		print("Driving straight!\n")
-		drive(10, 0.5)
+		drive(40, 0.1)
 		
 
 def main():
