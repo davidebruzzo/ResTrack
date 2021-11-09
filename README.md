@@ -25,9 +25,6 @@ On Ubuntu, this can be accomplished by:
 
 To run one or more scripts in the simulator, use `run.py`, passing it the file names. 
 
-I am proposing you three exercises, with an increasing level of difficulty.
-The instruction for the three exercises can be found inside the .py files (exercise1.py, exercise2.py, exercise3.py).
-
 When done, you can run the program with:
 
 ```bash
