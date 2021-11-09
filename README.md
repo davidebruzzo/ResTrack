@@ -108,6 +108,6 @@ My flowchart of the code
 ===========================
 
 <p align="center">
-<img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.drawio.png" width="600" />
+<img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.drawio.png" width="800" />
 <p>
 
