@@ -107,5 +107,5 @@ for m in markers:
 My flowchart of the code
 ===========================
 
-![Flowchart](https://user-images.githubusercontent.com/62437632/140922568-27ecf4d3-2071-4132-93dd-8bb54a54094d.png | width = "100" height = "100")
+![Flowchart](https://user-images.githubusercontent.com/62437632/140922568-27ecf4d3-2071-4132-93dd-8bb54a54094d.png)
 
