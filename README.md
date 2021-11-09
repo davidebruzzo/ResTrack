@@ -103,5 +103,11 @@ for m in markers:
 ```
 
 [sr-api]: https://studentrobotics.org/docs/programming/sr/
-#myrepo
-#myrepo
+
+My flowchart of the code
+===========================
+
+<p align="center">
+<img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.png?raw=true" width="600" />
+<p>
+
