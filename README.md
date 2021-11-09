@@ -107,8 +107,7 @@ for m in markers:
 My flowchart of the code
 ===========================
 
-![Flowchart](https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.png?raw=true)
 <p align="center">
-<img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.png?raw=true" width="900" />
+<img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.png?raw=true" width="600" />
 <p>
 
