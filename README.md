@@ -11,7 +11,7 @@ Here down below how it is organized this README.md :
 3. [Flowchart of the code] (#Paragraph2)
 4. [Issues found and how I solved them] (#Paragraph3)
 
-## Introduction <a name="Paragraph1"></a>
+## Introduction <a name="Introduction"></a>
 -----------------------------
 Here some informations about the Robot.
 
@@ -38,7 +38,8 @@ $ python2 run.py assignment.py
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
 ## My solution <a name="Paragraph1"></a>
-================================
+------------------------------------------------
+
 #### *How i have organized the code* 
 -----------------------------
 I tried to make the flow of code as clear as possibile by dividing it in three main functions :
