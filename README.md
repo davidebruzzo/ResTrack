@@ -15,7 +15,7 @@ Here down below how it is organized this README.md :
 -----------------------------
 Here some informations about the Robot.
 
-#### *Installing and running 
+#### *Installing and running* 
 -----------------------------
  
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/), [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
@@ -32,7 +32,7 @@ Or if it doesn't work you can type:
 ```bash
 $ python2 run.py assignment.py
 ```
-#### *Robot API
+#### *Robot API*
 ---------
 
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
