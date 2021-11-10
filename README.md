@@ -7,9 +7,9 @@ I'm Davide Bruzzo and this is my solution for the first Reasearch Track I assign
 Here down below how it is organized this README.md :
 
 1. [Introduction](#Introduction)
-2. [My solution] (#Paragraph1)
-3. [Flowchart of the code] (#Paragraph2)
-4. [Issues found and how I solved them] (#Paragraph3)
+2. [My solution] (#My-solution)
+3. [Flowchart of the code] (#Flowchart of the code)
+4. [Issues found and how I solved them] (#Issues found and how I solved them)
 
 ## Introduction <a name="Introduction"></a>
 -----------------------------
@@ -37,7 +37,7 @@ $ python2 run.py assignment.py
 
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
-## My solution <a name="Paragraph1"></a>
+## My solution <a name="My-solution"></a>
 ------------------------------------------------
 
 #### *How i have organized the code* 
@@ -56,9 +56,9 @@ If this is the case, ```moveRobot()``` calls ```moveRobotTowardsSilverBlock()```
 If Robot is not near a silver block,  ```moveRobot()``` calls ```avoidWalls()``` that is a function that checks if Robot is closer to golden blocks (walls). ```avoidWalls()``` checks if Robot is in an angle and decides if it has to turn right or left, by comparing the distance from golden blocks in the two directions (right and left). The one that is bigger has more space to drive by, so this will be the side that has no wall.  ```avoidWalls()``` turns the Robot until we are far enough from walls.  
 At the end, whith the two function called, or equally if there is enough space in front, the Robot can drive straight.  
 
-*As well as we are in a while loop all this procedure is cycled costantly.*
+***As well as we are in a while loop all this procedure is cycled costantly.***
 
-## Flowchart of the code <a name="Paragraph2"></a>
+## Flowchart of the code <a name="Flowchart of the code"></a>
 
 <p align="center">
 <img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.drawio.png" width="900" />
