@@ -53,7 +53,7 @@ First of all, it checks if we are closer to a silver block, so close that there 
 
 If this is the case, ```moveRobot()``` calls ```moveRobotTowardsSilverBlock()```. This is a function to align (by rotating) and drive towards the silver block. If Robot is so close that it is under a certain distance, it can grab the block, by using the Robot class function ```R.grab()```. Then the Robot rotates handling the block and releases it, by using the Robot class function ```R.release()``` on his back. Finally it turns back to drive in counter-wise direction.  
 
-If Robot is not in near a silver block,  ```moveRobot()``` calls ```avoidWalls()``` that is a function that checks if Robot is closer to golden blocks (walls). ```avoidWalls()``` checks if Robot is in an angle and decides if it has to turn right or left, by comparing the distance from golden blocks in the two directions (right and left). The one that is bigger has more space to drive by, so this will be the side that has no wall.  ```avoidWalls()``` turns the Robot until we are far enough from walls.  
+If Robot is not near a silver block,  ```moveRobot()``` calls ```avoidWalls()``` that is a function that checks if Robot is closer to golden blocks (walls). ```avoidWalls()``` checks if Robot is in an angle and decides if it has to turn right or left, by comparing the distance from golden blocks in the two directions (right and left). The one that is bigger has more space to drive by, so this will be the side that has no wall.  ```avoidWalls()``` turns the Robot until we are far enough from walls.  
 At the end, whith the two function called, or equally if there is enough space in front, the Robot can drive straight.  
 
 *As well as we are in a while loop all this procedure is cycled costantly.*
