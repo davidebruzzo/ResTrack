@@ -6,12 +6,12 @@ I'm Davide Bruzzo and this is my solution for the first Reasearch Track I assign
 ****************************
 Here down below how it is organized this README.md :
 
-1. [Introduction](#Introduction)
-2. [My solution] (#My-solution)
-3. [Flowchart of the code] (#Flowchart of the code)
-4. [Issues found and how I solved them] (#Issues found and how I solved them)
+1. [Introduction](#introduction)
+2. [My solution] (#solution)
+3. [Flowchart of the code] (#flowchart)
+4. [Issues found and how I solved them] (#issues)
 
-## Introduction <a name="Introduction"></a>
+## Introduction <a name="introduction"></a>
 -----------------------------
 Here some informations about the Robot.
 
@@ -37,7 +37,7 @@ $ python2 run.py assignment.py
 
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
-## My solution <a name="My-solution"></a>
+## My solution <a name="solution"></a>
 ------------------------------------------------
 
 #### *How i have organized the code* 
@@ -58,7 +58,7 @@ At the end, whith the two function called, or equally if there is enough space i
 
 ***As well as we are in a while loop all this procedure is cycled costantly.***
 
-## Flowchart of the code <a name="Flowchart of the code"></a>
+## Flowchart of the code <a name="flowchart"></a>
 
 <p align="center">
 <img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.drawio.png" width="900" />
