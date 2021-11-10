@@ -6,10 +6,10 @@ I'm Davide Bruzzo and this is my solution for the first Reasearch Track I assign
 ****************************
 Here down below how it is organized this README.md :
 
-* [Introduction](#Introduction)
-* [How I have implemented my solution] (#Paragraph1)
-* [Flowchart of the code] (#Paragraph2)
-* [Issues found and how I solved them] (#Paragraph3)
+1. [Introduction](#Introduction)
+2. [My solution] (#Paragraph1)
+3. [Flowchart of the code] (#Paragraph2)
+4. [Issues found and how I solved them] (#Paragraph3)
 
 ## Introduction <a name="Paragraph1"></a>
 -----------------------------
@@ -37,7 +37,22 @@ $ python2 run.py assignment.py
 
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
+## My solution <a name="Paragraph1"></a>
+================================
+#### *How i have organized the code* 
+-----------------------------
+I tried to make the flow of code as clear as possibile by dividing it in three main functions :
 
+- moveRobot()
+- moveRobotTowardsSilverBlock()
+- avoidWalls()
+
+The ```python moveRobot()``` function is the one that occupies to recall the other two functions. This function is cycled in a while infinite loop. 
+First of all it checks if we are closer to a silver block, so close that there is nothing between robot and the silver block.  
+If this is the case ```python moveRobot()``` calls ```python moveRobotTowardsSilverBlock()```. This is a function to align (by rotating) and drive towards the silver block. If Robot is so close that it is under a certain distance, it can grab the block, by using the Robot class function ```python R.grab()```. Then the Robot rotates handling the block and releases it, by using the Robot class function ```python R.release()``` on his back. Finally it turns back to drive in counter-wise direction.  
+If Robot is not in near a silver block,  ```python moveRobot()``` calls ```python avoidWalls()``` that is a function that checks if Robot is closer to golden blocks (walls). ```python avoidWalls()``` checks if Robot is in an angle and decides if it has to turn right or left by comparing the distance from golden blocks in the two directions (right and left). The one that is bigger has more space to drive by, so this will be the side that has no wall.  ```python avoidWalls()``` turns the Robot until we are far enough from walls.  
+At the end, whith the two function called, or equally if there is enough space in front, the Robot can drive straight.  
+As well as we are in a while loop all this procedure is cycled costantly.
 
 ## Flowchart of the code <a name="Paragraph2"></a>
 ===========================
