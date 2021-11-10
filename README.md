@@ -39,7 +39,7 @@ The API for controlling a simulated robot is designed to be as similar as possib
 
 
 
-## Flowchart of the code <a name="Paragraph3"></a>
+## Flowchart of the code <a name="Paragraph2"></a>
 ===========================
 
 <p align="center">
