@@ -9,11 +9,12 @@ Here down below how it is organized this README.md :
 1. [Introduction](#introduction)
 2. [My solution](#solution)
 3. [Flowchart of the code](#flowchart)
-4. [Issues found and how I solved them](#issues)
+4. [Video demonstration](#video)
+5. [Final considerations and conclusions](#issues)
 
 ## Introduction <a name="introduction"></a>
 -----------------------------
-Here some informations about the Robot.
+Here some informations about the Robot and the simulator.
 
 #### *Installing and running* 
 -----------------------------
@@ -40,7 +41,7 @@ The API for controlling a simulated robot is designed to be as similar as possib
 ## My solution <a name="solution"></a>
 ------------------------------------------------
 
-#### *How i have organized the code* 
+#### *How I have organized the code* 
 
 I tried to make the flow of code as clear as possibile by dividing it in three main functions :
 
@@ -64,3 +65,17 @@ At the end, whith the two function called, or equally if there is enough space i
 <img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.drawio.png" width="900" />
 <p>
 
+ ## Video demonstration <a name="video"></a>
+------------------------------------------------
+
+ 
+ ## Final considerations and conclusions <a name="issues"></a>
+------------------------------------------------
+
+ Dealing with solving the problem I found some solutions that helped me to achieve some tasks.  
+ First of all, I reduced the angle of visibility of the robot in order to be more sure that the robot was facing walls and they were not by its sides.  
+ Also reducing the working range of seeing silver blocks helped me to detect this block only when they are very close and there's nothing in between.  
+ To make the robot turn in the right direction choosing between right and left, I had to select the nearest block on left and nearest one on rigth. By this two distances it decides where to turn based on how much free space there is.  
+ Last code improvement was trying to speed up the velocity of the robot by driving faster. This required a reduction in time of driving in order to have more rapid checks.
+ 
+ 
