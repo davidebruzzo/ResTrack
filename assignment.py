@@ -191,7 +191,7 @@ def moveRobot(distSilver, rot_ySilver, distGold, rot_yGold):
 
 def main():
 
-	drive(20,1)								# start moving the robot
+	drive(40,0.5)								# start moving the robot
 	
 	while(1):
 		distSilver, rot_ySilver = findMarkerSilver()
