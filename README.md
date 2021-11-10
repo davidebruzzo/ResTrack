@@ -67,7 +67,9 @@ At the end, whith the two function called, or equally if there is enough space i
 
  ## Video demonstration <a name="video"></a>
 ------------------------------------------------  
- [<img src="https://img.youtube.com/vi/wOrfuieJfaU/maxresdefault.jpg" width="50%">](https://youtu.be/wOrfuieJfaU)
+ <p align="center">
+ [![ResTrack 1st Assignment](http://img.youtube.com/vi/wOrfuieJfaU/0.jpg)](http://www.youtube.com/watch?v=wOrfuieJfaU "ResTrack 1st Assignment")
+ <p>
  
  ## Final considerations and conclusions <a name="issues"></a>
 ------------------------------------------------
