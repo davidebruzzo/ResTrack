@@ -7,9 +7,9 @@ I'm Davide Bruzzo and this is my solution for the first Reasearch Track I assign
 Here down below how it is organized this README.md :
 
 1. [Introduction](#introduction)
-2. [My solution] (#solution)
-3. [Flowchart of the code] (#flowchart)
-4. [Issues found and how I solved them] (#issues)
+2. [My solution](#solution)
+3. [Flowchart of the code](#flowchart)
+4. [Issues found and how I solved them](#issues)
 
 ## Introduction <a name="introduction"></a>
 -----------------------------
