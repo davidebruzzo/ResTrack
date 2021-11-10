@@ -41,7 +41,6 @@ The API for controlling a simulated robot is designed to be as similar as possib
 ------------------------------------------------
 
 #### *How i have organized the code* 
-===========================
 
 I tried to make the flow of code as clear as possibile by dividing it in three main functions :
 
@@ -60,7 +59,6 @@ At the end, whith the two function called, or equally if there is enough space i
 *As well as we are in a while loop all this procedure is cycled costantly.*
 
 ## Flowchart of the code <a name="Paragraph2"></a>
-===========================
 
 <p align="center">
 <img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.drawio.png" width="900" />
