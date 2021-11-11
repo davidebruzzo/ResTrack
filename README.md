@@ -67,7 +67,7 @@ At the end, whith the two function called, or equally if there is enough space i
  # Video demonstration <a name="video"></a>
 ------------------------------------------------  
  This is a demo, here the robot makes three laps in counter-clockwise direction in the arena:
- [![](https://img.youtube.com/vi/wOrfuieJfaU/0.jpg)](https://www.youtube.com/watch?v=wOrfuieJfaU)
+ [![](https://img.youtube.com/vi/a6Pq5laFK8o/0.jpg)](https://www.youtube.com/watch?v=a6Pq5laFK8o)
  
  # Final considerations and conclusions <a name="issues"></a>
 ------------------------------------------------
