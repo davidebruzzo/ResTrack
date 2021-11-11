@@ -38,7 +38,7 @@ $ python2 run.py assignment.py
 
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
-## My solution <a name="solution"></a>
+# My solution <a name="solution"></a>
 ------------------------------------------------
 
 #### *How I have organized the code* 
@@ -59,18 +59,18 @@ At the end, whith the two function called, or equally if there is enough space i
 
 ***As well as we are in a while loop all this procedure is cycled costantly.***
 
-## Flowchart of the code <a name="flowchart"></a>
+# Flowchart of the code <a name="flowchart"></a>
 
 <p align="center">
 <img src="https://github.com/davidebruzzo/ResTrack/blob/main/Flowchart.drawio.png" width="900" />
 <p>
 
- ## Video demonstration <a name="video"></a>
+ # Video demonstration <a name="video"></a>
 ------------------------------------------------  
  This is a demo, here the robot makes three laps in counter-clockwise direction in the arena:
  [![](https://img.youtube.com/vi/wOrfuieJfaU/0.jpg)](https://www.youtube.com/watch?v=wOrfuieJfaU)
  
- ## Final considerations and conclusions <a name="issues"></a>
+ # Final considerations and conclusions <a name="issues"></a>
 ------------------------------------------------
 
  Dealing with solving the problem I found some solutions that helped me to achieve some tasks.  
