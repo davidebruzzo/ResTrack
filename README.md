@@ -18,7 +18,6 @@ Here down below how it is organized this README.md :
 
 ## Introduction <a name="introduction"></a>
 -----------------------------
-Here some informations about the Robot and the simulator.
 
 #### *Installing and running* 
 -----------------------------
@@ -37,10 +36,6 @@ Or if it doesn't work you can type:
 ```bash
 $ python2 run.py assignment.py
 ```
-#### *Robot API*
----------
-
-The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
 # My solution <a name="solution"></a>
 ------------------------------------------------
