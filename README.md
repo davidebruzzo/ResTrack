@@ -1,6 +1,6 @@
 First assignment
 ================================
-I'm Davide Bruzzo and this is my solution for the first Reasearch Track I assignment.
+I'm Davide Bruzzo and this is my solution for the first Reasearch Track I first assignment.
 
 # Table of contents
 ****************************
