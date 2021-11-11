@@ -148,6 +148,7 @@ def moveRobotTowardsSilver(distSilver, rot_ySilver):
 	      	turn(20, 3) 
 	      	R.release()
 	      	print("Silver block released!\n")
+	      	drive(-30, 0.5)
 	      	turn(-20,3)
 	      	drive(20,0.3)
 	        	        	
