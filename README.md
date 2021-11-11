@@ -20,7 +20,7 @@ Here some informations about the Robot and the simulator.
 -----------------------------
  
 The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org/), [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
-Once the dependencies are installed, simply run the `test.py` script to test out the simulator.
+
 
 When done, you can run the program with:
 
