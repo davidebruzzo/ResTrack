@@ -1,6 +1,6 @@
 First assignment
 ================================
-I'm Davide Bruzzo and this is my solution for the first Reasearch Track I first assignment. The request of the assignment was to write a python script for achieving this robot’s behaviour:
+I'm Davide Bruzzo and this is my solution for the first Reasearch Track I assignment. The request of the assignment was to write a python script for achieving this robot’s behaviour:
 
 - constantly drive the robot around the circuit in the counter-clockwise direction
 - avoid touching the golden boxes
